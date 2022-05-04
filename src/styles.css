@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s all linear;
+}
+
+a:hover{
+  transform: translateY(-10px);
+}

@@ -1,0 +1,49 @@
+.home{
+  text-align: center;
+}
+
+.hero{
+  margin: 10rem auto 2rem;
+}
+
+.hero h1{
+  font-size: 3rem;
+  font-style: 900;
+}
+
+
+.about{
+  margin: 8rem auto 4rem;
+}
+
+.about h1{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+.wrapper{
+  width: 80%;
+  text-align: center;
+}
+
+.buttons{
+  margin: 2rem auto;
+  max-width: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons button{
+  display: inline-block;
+  padding: .5rem 2rem;
+  border-radius: 1.25rem;
+}
+
+.roadmap-block{
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 3rem;
+  justify-content: space-around;
+}
