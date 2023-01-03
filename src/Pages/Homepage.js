@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 
 import "./homepage.css"
 import RoadmapCard from "./../Components/RoadmapCard"
-
+import roads from '../roadmap/roads';
 function Homepage(){
   return(
     <>
@@ -19,12 +19,7 @@ function Homepage(){
       <div className="about wrapper" id="#roadmap">
         <h1>Take a peek on different Roadmaps</h1>
         <div className="roadmap-block">
-          <RoadmapCard>Frontend</RoadmapCard>
-          <RoadmapCard>Backend</RoadmapCard>
-          <RoadmapCard>React</RoadmapCard>
-          <RoadmapCard>Devops</RoadmapCard>
-          <RoadmapCard>Cyber Security</RoadmapCard>
-          <RoadmapCard>Android</RoadmapCard>
+        {roads.map(road=><RoadmapCard key={road.id} road={road} />)}  
         </div>
       </div>
     </>
